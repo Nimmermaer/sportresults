@@ -1,0 +1,57 @@
+
+plugin.tx_sportresults_results {
+	view {
+		templateRootPaths.0 = {$plugin.tx_sportresults_results.view.templateRootPath}
+		partialRootPaths.0 = {$plugin.tx_sportresults_results.view.partialRootPath}
+		layoutRootPaths.0 = {$plugin.tx_sportresults_results.view.layoutRootPath}
+	}
+	persistence {
+		storagePid = {$plugin.tx_sportresults_results.persistence.storagePid}
+	}
+}
+
+plugin.tx_sportresults._CSS_DEFAULT_STYLE (
+	textarea.f3-form-error {
+		background-color:#FF9F9F;
+		border: 1px #FF0000 solid;
+	}
+
+	input.f3-form-error {
+		background-color:#FF9F9F;
+		border: 1px #FF0000 solid;
+	}
+
+	.tx-sportresults table {
+		border-collapse:separate;
+		border-spacing:10px;
+	}
+
+	.tx-sportresults table th {
+		font-weight:bold;
+	}
+
+	.tx-sportresults table td {
+		vertical-align:top;
+	}
+
+	.typo3-messages .message-error {
+		color:red;
+	}
+
+	.typo3-messages .message-ok {
+		color:green;
+	}
+
+)
+
+ # Module configuration
+module.tx_sportresults_web_sportresultsadmin {
+	persistence {
+		storagePid = {$module.tx_sportresults_admin.persistence.storagePid}
+	}
+	view {
+		templateRootPaths.0 = {$module.tx_sportresults_admin.view.templateRootPath}
+		partialRootPaths.0 = {$module.tx_sportresults_admin.view.partialRootPath}
+		layoutRootPaths.0 = {$module.tx_sportresults_admin.view.layoutRootPath}
+	}
+}

@@ -1,0 +1,42 @@
+
+config.tx_extbase{
+    persistence{
+        classes{
+
+            TYPO3\CMS\Extbase\Domain\Model\FrontendUserGroup {
+                subclasses {
+                    Tx_Sportresults_Team = PHTH\Sportresults\Domain\Model\Team
+					
+          		}
+            }
+            TYPO3\CMS\Extbase\Domain\Model\FrontendUser {
+                subclasses {
+                    Tx_Sportresults_Player = PHTH\Sportresults\Domain\Model\Player
+					Tx_Sportresults_Coach = PHTH\Sportresults\Domain\Model\Coach
+					
+          		}
+            }
+            PHTH\Sportresults\Domain\Model\Team {
+                mapping {
+                    tableName = fe_groups
+                    recordType = Tx_Sportresults_Team
+                }
+            }
+            
+            PHTH\Sportresults\Domain\Model\Player {
+                mapping {
+                    tableName = fe_users
+                    recordType = Tx_Sportresults_Player
+                }
+            }
+            
+            PHTH\Sportresults\Domain\Model\Coach {
+                mapping {
+                    tableName = fe_users
+                    recordType = Tx_Sportresults_Coach
+                }
+            }
+            
+    	}
+    }
+}

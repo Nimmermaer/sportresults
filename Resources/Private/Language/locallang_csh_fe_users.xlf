@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2017-03-01T23:50:50Z" product-name="sportresults">
+		<header/>
+		<body>
+			<trans-unit id="shirt_number.description">
+				<source>shirtNumber</source>
+			</trans-unit>
+			<trans-unit id="position.description">
+				<source>position</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

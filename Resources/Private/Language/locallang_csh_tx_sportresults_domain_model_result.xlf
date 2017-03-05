@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2017-03-01T23:50:50Z" product-name="sportresults">
+		<header/>
+		<body>
+			<trans-unit id="opponent.description">
+				<source>opponent</source>
+			</trans-unit>
+			<trans-unit id="team_goals.description">
+				<source>teamGoals</source>
+			</trans-unit>
+			<trans-unit id="opponent_goals.description">
+				<source>opponentGoals</source>
+			</trans-unit>
+			<trans-unit id="comment.description">
+				<source>comment</source>
+			</trans-unit>
+			<trans-unit id="event.description">
+				<source>one event, one or more results
+</source>
+			</trans-unit>
+			<trans-unit id="team.description">
+				<source>one or more events for one team 
+</source>
+			</trans-unit>
+			<trans-unit id="images.description">
+				<source>no or more pictures for one or more events
+</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

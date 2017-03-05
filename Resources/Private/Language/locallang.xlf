@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2017-03-01T23:50:50Z" product-name="sportresults">
+		<header/>
+		<body>
+			<trans-unit id="tx_sportresults_domain_model_result">
+				<source>Result</source>
+			</trans-unit>
+			<trans-unit id="tx_sportresults_domain_model_result.opponent">
+				<source>Opponent</source>
+			</trans-unit>
+			<trans-unit id="tx_sportresults_domain_model_result.team_goals">
+				<source>Team Goals</source>
+			</trans-unit>
+			<trans-unit id="tx_sportresults_domain_model_result.opponent_goals">
+				<source>Opponent Goals</source>
+			</trans-unit>
+			<trans-unit id="tx_sportresults_domain_model_result.comment">
+				<source>Comment</source>
+			</trans-unit>
+			<trans-unit id="tx_sportresults_domain_model_result.event">
+				<source>Event</source>
+			</trans-unit>
+			<trans-unit id="tx_sportresults_domain_model_result.team">
+				<source>Team</source>
+			</trans-unit>
+			<trans-unit id="tx_sportresults_domain_model_result.images">
+				<source>Images</source>
+			</trans-unit>
+			<trans-unit id="tx_sportresults_domain_model_event">
+				<source>Event</source>
+			</trans-unit>
+			<trans-unit id="tx_sportresults_domain_model_event.title">
+				<source>Title</source>
+			</trans-unit>
+			<trans-unit id="tx_sportresults_domain_model_event.kind">
+				<source>Kind</source>
+			</trans-unit>
+			<trans-unit id="tx_sportresults_domain_model_event.date">
+				<source>Date</source>
+			</trans-unit>
+			<trans-unit id="tx_sportresults_domain_model_team">
+				<source>Team</source>
+			</trans-unit>
+			<trans-unit id="tx_sportresults_domain_model_team.title">
+				<source>Title</source>
+			</trans-unit>
+			<trans-unit id="tx_sportresults_domain_model_team.crest">
+				<source>Crest</source>
+			</trans-unit>
+			<trans-unit id="tx_sportresults_domain_model_team.players">
+				<source>Players</source>
+			</trans-unit>
+			<trans-unit id="tx_sportresults_domain_model_team.coaches">
+				<source>Coaches</source>
+			</trans-unit>
+			<trans-unit id="tx_sportresults_domain_model_player">
+				<source>Player</source>
+			</trans-unit>
+			<trans-unit id="tx_sportresults_domain_model_player.shirt_number">
+				<source>Shirt Number</source>
+			</trans-unit>
+			<trans-unit id="tx_sportresults_domain_model_player.position">
+				<source>Position</source>
+			</trans-unit>
+			<trans-unit id="tx_sportresults_domain_model_coach">
+				<source>Coach</source>
+			</trans-unit>
+			<trans-unit id="tx_sportresults_domain_model_image">
+				<source>Image</source>
+			</trans-unit>
+			<trans-unit id="tx_sportresults_domain_model_image.visible">
+				<source>Visible</source>
+			</trans-unit>
+			<trans-unit id="tx_sportresults_domain_model_image.image">
+				<source>Image</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>
